@@ -1,4 +1,4 @@
-package com.murdock.spring_app.services;
+package com.murdock.spring_app.entities.users;
 
 import java.util.List;
 
@@ -6,11 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.murdock.spring_app.database.models.User;
-import com.murdock.spring_app.repository.UserRepository;
-
 @Service
-public class UsersService {
+public class UserService {
 
   @Autowired
   private UserRepository repository;

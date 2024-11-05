@@ -1,4 +1,4 @@
-package com.murdock.spring_app.database.models;
+package com.murdock.spring_app.entities.users;
 
 import java.util.UUID;
 

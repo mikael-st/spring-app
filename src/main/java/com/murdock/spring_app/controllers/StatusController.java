@@ -1,4 +1,4 @@
-package com.murdock.spring_app.controller;
+package com.murdock.spring_app.controllers;
 
 import java.util.Map;
 
