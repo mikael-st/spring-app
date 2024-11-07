@@ -1,4 +1,4 @@
-package com.murdock.spring_app.entities.products.controller;
+package com.murdock.spring_app.modules.products.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

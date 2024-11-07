@@ -1,4 +1,4 @@
-package com.murdock.spring_app.entities.products.model;
+package com.murdock.spring_app.modules.products.model;
 
 import java.math.BigDecimal;
 import java.util.UUID;

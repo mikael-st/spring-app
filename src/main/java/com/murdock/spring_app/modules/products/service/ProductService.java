@@ -1,14 +1,13 @@
-package com.murdock.spring_app.entities.products.service;
+package com.murdock.spring_app.modules.products.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.murdock.spring_app.entities.products.model.Product;
-import com.murdock.spring_app.entities.products.repository.ProductRepository;
-
 import com.murdock.spring_app.interfaces.QueryInterface;
+import com.murdock.spring_app.modules.products.model.Product;
+import com.murdock.spring_app.modules.products.repository.ProductRepository;
 
 @Service
 public class ProductService implements QueryInterface<Product> {
